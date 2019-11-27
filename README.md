@@ -4,21 +4,15 @@ Problem statement : Develop a machine learning algorithm to predict the score of
 <pre>
 Approach:
 	Data Preprocessing
-	<br>
 		In the provided dataset we mainly need to preprocess EssayText column data because rest of the the data is already in numeric form except clarity and coherant column.
-		<br>
 		Preprocess EssayText column: 
-		<br>
 			1 - Replace all the words like i'm,he's with their proper syntax.
-			<br>
 			2 - Remove all the stop words from the above preprocessed text.
-			<br>
 			3 - Lemmatize each word using nltk library and also stem each word of corpus.
-			<br>
 		Prprocess clarity and coherant column:
-		<br>	
 			1 - Replace "excellent"-3,"above_Average"-2,"average"-1,"worst"-0
 </pre>
+
 	Feature Extraction :
 		1 - Count number of words ,sentences and average word length of each script.
 		2 - Count number of noun, pronoun, adverb, adjective, verb, determiners using textblob library.
@@ -46,10 +40,8 @@ Feature Engineering:
 <pre>	
 IDE Used :
 	Pycharm Edu 20
-
 Operating System :
 	Linux (ubuntu 18.04)
-
 Tools Used :
 	Numpy
 	Pandas
@@ -58,7 +50,6 @@ Tools Used :
 	NLTK
 	Sklearn
 	re
-
 Exceution : Exeute Run.py file using python3 Run.py command on Linux.
 </pre>
 
